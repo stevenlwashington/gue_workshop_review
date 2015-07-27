@@ -1,0 +1,211 @@
+ls
+pwd
+cd
+man less
+history | less
+history
+history 5
+ls /Users/StevenLeeWashington/
+ls ~
+ls /Applications/ .-l
+ls .
+ls /Applications/ . -l
+ls /Applications/ -l
+ls -l /Applications/
+ls -t /Applications/
+ls /Applications/
+ls /
+cd /Users/StevenLeeWashington/Pictures/Photos\ Library.photoslibrary/private/com.google.Chrome/
+../..
+../StevenLeeWashington/
+cd ../..
+ls -l
+cd /Users/StevenLeeWashington/Pictures/Photos\ Library.photoslibrary/com.google.Chrome/
+ls -
+cd /Users/StevenLeeWashington/Pictures/Photos\ Library.photoslibrary/private/
+cd /Users/StevenLeeWashington/Pictures/Photos\ Library.photoslibrary/
+cd ..
+cd .
+/Users/StevenLeeWashington/Pictures/Photos\ Library.photoslibrary/
+cd /Users/StevenLeeWashington/Photos\ Library.photoslibrary
+cd /Users/StevenLeeWashington/Photos\ Library.photoslibrary/
+ls - l
+cd /Users/StevenLeeWashington/Pictures/
+cd /Users/StevenLeeWashington/
+cd /StevenLeeWashington/
+cd /Users/
+cd /Applications/
+cd /Pictures/
+/Pictures/
+cd /Applications/App\ Store.app/Contents/MacOS/
+cd /Applications/App\ Store.app/Contents/
+cd /Applications/App\ Store.app/
+cd /App Store.app/
+cd /App Store.app
+ls 
+ls -p
+ls -w
+ls -t
+cd /
+man ls
+ls -rlt
+ls -tl
+ls -lt
+ls -rt
+ls -r
+l -r
+git clone git_assignment/ git@github.com:stevenlwashington/sea-w31-uge.git
+git checkout -b git_assignment/
+git clone git@github.com:stevenlwashington/sea-w31-uge.git
+git add README.MD
+subl git_assignment
+git init
+git status
+cd git_assignment/
+mkdir git_assignment
+ls -n
+history 2
+history 10
+git diff --cached
+git diff
+why not us
+will i make it
+git --version
+pwd 
+git branch friends_repo 
+git branch uge-workshop-alyssajordan/
+git log
+git commit -m "changed something"
+git add friends_repo.txt
+git add friends_repo
+git push u-origin friends_repo 
+git remote add origin git@github.com:stevenlwashington/uge-workshop-alyssajordan.git
+git remote -v
+cd friends_repo/
+git remote git@github.com:stevenlwashington/uge-workshop-alyssajordan.git/
+git remote 
+git add friends_repo 
+subl friends_repo
+git ls
+git la
+la
+git clone git@github.com:stevenlwashington/uge-workshop-alyssajordan.git
+mkdir friends_repo
+git checkout master
+git pull origin master
+git push -u origin git-notes
+git push -u origin master
+git remote add origin git@github.com:stevenlwashington/uge-workshop-steveo.git
+ssh -T git@github.com
+pbcopy < ~/.ssh/id_rsa.pub
+ssh-add ~/.ssh/id_rsa
+eval "(ssh-agent -s)"
+ssh-keygen -t rsa -b 4096 -C "stevenlwashington@gmail.com"
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+ls -al ~/.ssh
+git show 9207759d7b797d4ff1b6885382bb1649c8fc1d62
+git commit -m "starting notes on git"
+git add git_notes.txt 
+subl git_notes.txt
+touch git_notes.txt
+git checkout git-notes
+git checkout git_notes
+git branch
+git branch git-notes
+git show f3daa516a3f0eaf55114f25f1c8cefe05053eae6
+git commit -m "changed something else"
+la -la
+ls -a
+git commit -m "adding unix_notes, first draft"
+git add unix.notes.txt
+cd uge_workshop/
+git config --global user.email "stevenlwashington@gmail.com"
+git config --global user.name "Steven Washington"
+config --global.user name "Steven Washington"
+mv moving_around.txt /uge_workshop/
+mv moving_around.txt ./uge_workshop/
+mkdir uge_workshop/
+loc moving_around.txt
+uge_workshop/
+man mv
+ls unix.notes.txt 
+mv ./uge_workshop/moving_around.txt ./uge_workshop/unix.notes.txt
+subl moving_around.txt
+./uge_workshop/
+mkdir uge_workshop
+subl moving_around.txt 
+cat moving_around.txt 
+cat moving_around.txt
+history > moving_around.txt
+less
+cd ../Applications/
+cd ./Applications/
+ppwd
+ls ..
+ls /Applications/ -t
+ls /Applications/t
+ls /home/
+ls /Music/
+ls /Music
+ls /music
+ls /Library/ -t
+ls /t
+ls /r
+cd ../Library/
+cd ../lib
+cd ../somewhere\else
+cd . .
+cd /users/chew
+ls -h
+ls --help
+ls -help
+ls -tlr
+ls -rtl
+fdsfdsfjfdshfjkdshfkj
+brew man
+addftinfo Applications/
+git --add
+git add
+git 
+man man
+man ls 
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh
+git config --global user.email 'STEVENLWASHINGTON@GMAIL.COM'
+git config --global user.name 'STEVEN WASHINGTON'
+git version
+yes
+git confic --global user.name 'Steven Washington'
+git config --global user.email 'stevenlwashington@gmail.com'
+git config --global user.name "STEVEN WASHINGTON"
+git -- version
+brew install git
+echo $PATH 
+subl /etc/paths
+echo $EDITOR
+set -gx EDITOR 'subl -w'
+# Sublime Text
+subl ~/.config/fish/config.fish
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+brew info fish
+fish_update_completions
+brew update
+brew doctor
+kill all fishd
+brew in
+curl -fsSL http://git.io/beJs | ruby
+help
+chsh -s /usr/local/bin/fish
+echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+brew install fish
+brew help
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+password
+sudo visudo;
+$ brew install wget
+brew install wget
+brew issue
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
+ruby-e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
+uname
+/Applications/Dropbox.app/Contents/MacOS/Dropbox ; exit;
