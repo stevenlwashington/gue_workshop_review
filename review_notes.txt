@@ -1,9 +1,21 @@
+Git Simple Workflow
+git init
+git add
+git commit -m "type any message here", modify files
+git add
+git commit -m "type another message here"
+also learned the following commands
+git config
+git status
+mv
+>
+>>
 subl review_notes.txt
-git commit -m "updating notes to include '.'" 
+git commit -m "updating notes to include '.'"
 git status
 ls -la
 pwd
-git 
+git
 git ls-la
 ls -l
 git commit -m "git is a examp of a hidden file;by default anything beginning with . is hidden from user"
@@ -11,7 +23,7 @@ git -m ".git is a examp of a hidden file;by default anything beginning with . is
 ls
 git log
 git commit -m "adding review notes, first draft"
-git add review_notes.txt 
+git add review_notes.txt
 git init
 cd review_workshop/
 git config --global user.email
@@ -20,7 +32,7 @@ git config
 mv ./review_workshop/still_moving_around.txt ./review_workshop/review_notes.txt
 mv still_moving_around.txt ./review_workshop/
 mkdir review_workshop
-subl still_moving_around.txt 
+subl still_moving_around.txt
 history | less
 less
 ls -t
@@ -65,7 +77,7 @@ cd /Applications/App\ Store.app/Contents/
 cd /Applications/App\ Store.app/
 cd /App Store.app/
 cd /App Store.app
-ls 
+ls
 ls -p
 ls -w
 cd /
@@ -91,19 +103,19 @@ git diff
 why not us
 will i make it
 git --version
-pwd 
-git branch friends_repo 
+pwd
+git branch friends_repo
 git branch uge-workshop-alyssajordan/
 git commit -m "changed something"
 git add friends_repo.txt
 git add friends_repo
-git push u-origin friends_repo 
+git push u-origin friends_repo
 git remote add origin git@github.com:stevenlwashington/uge-workshop-alyssajordan.git
 git remote -v
 cd friends_repo/
 git remote git@github.com:stevenlwashington/uge-workshop-alyssajordan.git/
-git remote 
-git add friends_repo 
+git remote
+git add friends_repo
 subl friends_repo
 git ls
 git la
@@ -124,7 +136,7 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ls -al ~/.ssh
 git show 9207759d7b797d4ff1b6885382bb1649c8fc1d62
 git commit -m "starting notes on git"
-git add git_notes.txt 
+git add git_notes.txt
 subl git_notes.txt
 touch git_notes.txt
 git checkout git-notes
@@ -147,13 +159,13 @@ mkdir uge_workshop/
 loc moving_around.txt
 uge_workshop/
 man mv
-ls unix.notes.txt 
+ls unix.notes.txt
 mv ./uge_workshop/moving_around.txt ./uge_workshop/unix.notes.txt
 subl moving_around.txt
 ./uge_workshop/
 mkdir uge_workshop
-subl moving_around.txt 
-cat moving_around.txt 
+subl moving_around.txt
+cat moving_around.txt
 cat moving_around.txt
 history > moving_around.txt
 cd ../Applications/
@@ -185,7 +197,7 @@ addftinfo Applications/
 git --add
 git add
 man man
-man ls 
+man ls
 curl -fsSL http://git.io/QxUaOQ | sh
 curl -fsSL http://git.io/7UHtNA | sh
 git config --global user.email 'STEVENLWASHINGTON@GMAIL.COM'
@@ -197,7 +209,7 @@ git config --global user.email 'stevenlwashington@gmail.com'
 git config --global user.name "STEVEN WASHINGTON"
 git -- version
 brew install git
-echo $PATH 
+echo $PATH
 subl /etc/paths
 echo $EDITOR
 set -gx EDITOR 'subl -w'
@@ -226,7 +238,7 @@ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
 ruby-e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
 uname
 /Applications/Dropbox.app/Contents/MacOS/Dropbox ; exit;
-git commit -m "updating notes to include '.'" 
+git commit -m "updating notes to include '.'"
 ls -status
 ls -l
 subl review_notes.txt
@@ -234,14 +246,14 @@ history > review_notes.txt
 git status
 ls -la
 pwd
-git 
+git
 git ls-la
 git commit -m "git is a examp of a hidden file;by default anything beginning with . is hidden from user"
 git -m ".git is a examp of a hidden file;by default anything beginning with . is hidden from user"
 ls
 git log
 git commit -m "adding review notes, first draft"
-git add review_notes.txt 
+git add review_notes.txt
 git init
 cd review_workshop/
 git config --global user.email
@@ -250,7 +262,7 @@ git config
 mv ./review_workshop/still_moving_around.txt ./review_workshop/review_notes.txt
 mv still_moving_around.txt ./review_workshop/
 mkdir review_workshop
-subl still_moving_around.txt 
+subl still_moving_around.txt
 history | less
 less
 ls -t
@@ -295,7 +307,7 @@ cd /Applications/App\ Store.app/Contents/
 cd /Applications/App\ Store.app/
 cd /App Store.app/
 cd /App Store.app
-ls 
+ls
 ls -p
 ls -w
 cd /
@@ -321,19 +333,19 @@ git diff
 why not us
 will i make it
 git --version
-pwd 
-git branch friends_repo 
+pwd
+git branch friends_repo
 git branch uge-workshop-alyssajordan/
 git commit -m "changed something"
 git add friends_repo.txt
 git add friends_repo
-git push u-origin friends_repo 
+git push u-origin friends_repo
 git remote add origin git@github.com:stevenlwashington/uge-workshop-alyssajordan.git
 git remote -v
 cd friends_repo/
 git remote git@github.com:stevenlwashington/uge-workshop-alyssajordan.git/
-git remote 
-git add friends_repo 
+git remote
+git add friends_repo
 subl friends_repo
 git ls
 git la
@@ -354,7 +366,7 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ls -al ~/.ssh
 git show 9207759d7b797d4ff1b6885382bb1649c8fc1d62
 git commit -m "starting notes on git"
-git add git_notes.txt 
+git add git_notes.txt
 subl git_notes.txt
 touch git_notes.txt
 git checkout git-notes
@@ -377,13 +389,13 @@ mkdir uge_workshop/
 loc moving_around.txt
 uge_workshop/
 man mv
-ls unix.notes.txt 
+ls unix.notes.txt
 mv ./uge_workshop/moving_around.txt ./uge_workshop/unix.notes.txt
 subl moving_around.txt
 ./uge_workshop/
 mkdir uge_workshop
-subl moving_around.txt 
-cat moving_around.txt 
+subl moving_around.txt
+cat moving_around.txt
 cat moving_around.txt
 history > moving_around.txt
 cd ../Applications/
@@ -415,7 +427,7 @@ addftinfo Applications/
 git --add
 git add
 man man
-man ls 
+man ls
 curl -fsSL http://git.io/QxUaOQ | sh
 curl -fsSL http://git.io/7UHtNA | sh
 git config --global user.email 'STEVENLWASHINGTON@GMAIL.COM'
@@ -427,7 +439,7 @@ git config --global user.email 'stevenlwashington@gmail.com'
 git config --global user.name "STEVEN WASHINGTON"
 git -- version
 brew install git
-echo $PATH 
+echo $PATH
 subl /etc/paths
 echo $EDITOR
 set -gx EDITOR 'subl -w'
